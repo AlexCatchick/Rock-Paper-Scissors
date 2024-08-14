@@ -18,10 +18,12 @@ function playRound(humanSelection, computerSelection) {
 
   if ((humanSelection == 0 && computerSelection == 2) || (humanSelection == 2 && computerSelection == 1) || (humanSelection == 1 && computerSelection == 0)) {
     humanScore += 1;
+    console.log(`You chose: ${set_items[humanSelection]} and Computer chose ${set_items[computerSelection]}\n`)
     console.log("Human Won!\n");
 }
 if ((humanSelection == 2 && computerSelection == 0) || (humanSelection == 1 && computerSelection == 2) || (humanSelection == 0 && computerSelection == 1)) {
     computerScore += 1;
+    console.log(`You chose: ${set_items[humanSelection]} and Computer chose ${set_items[computerSelection]}\n`)
     console.log("Computer Won!\n");
   }
   if (humanSelection == computerSelection) {

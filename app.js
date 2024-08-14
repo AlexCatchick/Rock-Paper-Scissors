@@ -27,7 +27,7 @@ if ((humanSelection == 2 && computerSelection == 0) || (humanSelection == 1 && c
     console.log("Computer Won!\n");
 }
 if (humanSelection == computerSelection) {
-    console.log(`You chose: ${set_items[humanSelection]} and Computer chose ${set_items[computerSelection]}\n`)
+    console.log(`You chose: ${set_items[humanSelection]} and Computer chose ${set_items[computerSelection]}\n`);
     console.log(`It's a Draw\n`);
   }
 }
